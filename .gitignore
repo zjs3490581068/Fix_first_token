@@ -1,0 +1,43 @@
+# Environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.DS_Store
+
+# External inputs and experiment artifacts
+/data/
+/datasets/
+/models/
+/outputs/
+/logs/
+/cache/
+.runtime/
+.cache/
+*.jsonl
+*.jsonl.gz
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.zip
+*.tar.gz
+*.partial-*
+
+# Private configuration and credentials
+configs/local.json
+configs/*.local.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+config.toml
+id_rsa*
+id_ed25519*

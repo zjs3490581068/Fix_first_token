@@ -1,0 +1,4 @@
+# Tested inference stack. Install a CUDA-compatible PyTorch/vLLM build for your GPU.
+-r requirements-cpu.txt
+torch==2.11.0
+vllm==0.26.0

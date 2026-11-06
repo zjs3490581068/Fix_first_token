@@ -1,0 +1,5 @@
+{
+  "extends": "main.json",
+  "rollouts": 1,
+  "rollouts_per_batch": 1
+}
